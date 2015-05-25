@@ -1,0 +1,33 @@
+<div class="tag-line"> A refreshing blend of fruits & water</div>
+
+<div class="drinks">
+	{{#each}}
+        <div class="drink">
+  			{{#link-to 'drinks.drink' this}}
+                <img src="{{img_url}}" data-drink-id="{{id}}" class="drink-img small-drink-img"/>
+			{{/link-to}}
+		</div>
+	{{/each}}
+
+
+</div>
+<div class="main-content">
+		<div class="info">
+			<div class="info-box">
+				At Sam & Jo's, we appreciate the Good Stuff! Great tasting drinks and where they come from. That's why we make our drinks without adding sugar, artificial colors or preservatives.
+		</div>
+		<div class="quote-container">
+		  <i class="pin"></i>
+		  <blockquote class="note yellow">
+				<ul class="checkmark">
+					<li> No added sugar </li>
+					<li> No added preservitives </li>
+					<li> Less than 80 caleries per bottle </li>
+					<li> Added B vitimins </li>
+				</ul>
+		  </blockquote>
+		</div>
+	</div>
+
+</div>
+<br /><br />

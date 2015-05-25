@@ -1,0 +1,20 @@
+<div class="large-drink-image">
+    <img class="large-drink-img" src="{{img_url}}" data-drink-id="{{id}}"/>
+</div>
+
+<div class="content">
+	<div class="title">{{name}}</div>
+
+  <div class="description">
+	   {{description}}
+  </div>
+
+  <div class="drink-footer">
+    {{#link-to "drinks"}}
+      <div class="button">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        Back
+      </div>
+    {{/link-to}}
+  </div>
+</div>
