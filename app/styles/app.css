@@ -196,8 +196,8 @@ ul.checkmark li {
 
 
 .drink-img {
-    width: 5em;
-    height: 10em;
+    width: 80px;
+    /* height: 14em; */
     /* background: #e14c31; */
     /* -webkit-border-radius: 5.625em; */
     /* -moz-border-radius: 5.625em; */
@@ -212,4 +212,5 @@ ul.checkmark li {
 
 .drink-img:hover {
     margin-top: 0px;
+    padding-bottom: 10px;
 }
