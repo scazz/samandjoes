@@ -11,24 +11,24 @@ drink.reopenClass({
 		{
 			id: "apple-and-elderflower",
 			name: "Apple & Elderflower",
-			img_url: "apple_drink.png",
+			img_url: "/images/AppleElderflower.png",
 			description:
 				'Love the great taste of apple but bored by the same traditional flavours? Then try Sam and Jo\'s Apple and Elderflower, the same great taste of apple with a refreshing elderflower twist!'
 		},
 		{
 			id: "couldy-lemon",
 			name: "Cloudy Lemon",
-			img_url: "apple_drink.png"
+			img_url: "/images/CloudyLemon.png"
 		},
     {
       id: "orange-and-mango",
       name: "Orange & Mango",
-      img_url: "apple_drink.png"
+      img_url: "/images/OrangeMango.png"
     },
     {
       id: "cranberry-and-lime",
       name: "Cranberry & Lime",
-      img_url: "apple_drink.png"
+      img_url: "/images/CranberryLime.png"
     }
 	]
 });
