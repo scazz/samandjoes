@@ -2,17 +2,52 @@
 
 body {
     margin: 0px;
-    padding-top: 15px;
+    padding-top: 7px;
     font-family: 'Capriola', sans-serif;
     color: #673E3E;
     background-color: #fef6eb;
 }
-.logo {
-  padding-bottom: 40px;
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto
+
+.heading-border {
+  border-top: 2px solid #573A3A;
+  padding-top: 3px;
+  border-bottom: 2px solid #573A3A;
+  padding-bottom: 3px;
 }
+
+.header {
+  height: 80px;
+  border-top: 4px solid #573A3A;
+  padding-top: 5px;
+  border-bottom: 4px solid #573A3A;
+  padding-bottom: 5px;
+}
+
+.left-container {
+  float: left;
+  width: 50%;
+}
+
+.right-container {
+  float: left;
+  width: 50%;
+}
+
+.logo img {
+  height: 60px;
+  margin-left: 250px;
+}
+
+.main {
+  height: 100vh;
+  overflow: hidden;
+}
+
+ul.drink-highlights li {
+  display: block;
+  list-style-type: circle;
+}
+
 
 .page-footer {
   text-align: center;
@@ -26,6 +61,18 @@ body {
 }
 .drinks {
   padding-left: 86px;
+  margin-top: 40px;
+
+  height: 300px;
+}
+
+@font-face {
+  font-family: gotham;
+  src: url('/gotham_bold.tff');
+}
+
+.font-container {
+  float: left;
 }
 
 .tag-line {
@@ -34,7 +81,22 @@ body {
   word-spacing: 5px;
   text-align: center;
   margin: 18px;
-  margin-top: 0px;
+}
+.logo {
+  float: left;
+}
+
+.logo-tagline {
+  font-family: 'gotham';
+  font-size: 28px;
+  padding-top: 3px;
+  margin-bottom: -6px;
+}
+
+.logo-tagline-subheading {
+  font-family: 'gotham';
+  font-size: 11px;
+  padding-left: 22px;
 }
 
 .heading, .info {
@@ -54,7 +116,9 @@ body {
     float: right;
     margin-right: 20px;
 }
-
+.social-list {
+  margin-top: 0px;
+}
 ul li {
     list-style: none;
     display: inline;
@@ -68,7 +132,7 @@ ul.checkmark li:before {
 ul.checkmark li {
   display: block;
   font-family: "Merienda One";
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .large-drink-img {
@@ -113,6 +177,15 @@ ul.checkmark li {
 .quote-container {
   margin-top: 50px;
   position: relative;
+}
+
+.chalkboard-content {
+  float: left;
+  background: url('/images/chalkboard.jpg');
+  color: rgba(255, 255, 255, 0.92);
+  margin-top: 50px;
+  padding: 10px 20px;
+  margin-left: 148px;
 }
 
 
@@ -196,7 +269,7 @@ ul.checkmark li {
 
 
 .drink-img {
-    width: 80px;
+    width: 100px;
     /* height: 14em; */
     /* background: #e14c31; */
     /* -webkit-border-radius: 5.625em; */
