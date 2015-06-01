@@ -20,7 +20,7 @@ drink.reopenClass({
       id: "orange-and-mango",
       name: "Orange & Mango",
       img_url: "/images/OrangeMango.png",
-      description: 'An exotic take on a Sam and Jo\' childhood favourite.'
+      description: 'An exotic take on a Sam and Jo\'sq childhood favourite.'
     },
 		{
 			id: "couldy-lemon",
